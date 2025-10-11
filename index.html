@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>小村淳己 Junki Komura SelfIntro</title>  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(120deg, #151e27 0%, #3a4756 100%);
+      color: #f3f3f3;
+      font-family: 'Noto Sans JP', 'Montserrat', sans-serif;
+      margin: 0;
+    }
+    /* ファーストビュー */
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 48px 16px 24px 16px;
+      background: rgba(20,30,40,0.97);
+      border-bottom: 1px solid #253347;
+      position: relative;
+    }
+    .hero-content {
+      display: flex;
+      flex-direction: row;
+      max-width: 920px;
+      width: 100%;
+      align-items: center;
+      gap: 32px;
+    }
+    .avatar {
+      min-width: 120px;
+      min-height: 120px;
+      border-radius: 50%;
+      background: linear-gradient(135deg,#3a98e6 40%,#7de2fc 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 24px rgba(30,60,100,0.18);
+    }
+    .avatar svg {
+      width: 90px;
+      height: 90px;
+    }
+    .hero-text {
+      flex: 1;
+    }
+    .name {
+      font-size: 2.3rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.2em;
+    }
+    .tagline {
+      font-size: 1.1rem;
+      color: #8fc3ff;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.7em;
+      font-weight: 600;
+    }
+    .summary {
+      font-size: 1.1rem;
+      margin-bottom: 1.2em;
+      color: #eaeaea;
+      line-height: 1.6;
+    }
+    .key-info {
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+      margin-bottom: 1.2em;
+    }
+    .key-info-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 1rem;
+      background: rgba(60,90,150,0.11);
+      border-radius: 18px;
+      padding: 6px 14px;
+      font-weight: 500;
+    }
+    .key-info-item svg {
+      width: 22px;
+      height: 22px;
+      vertical-align: middle;
+    }
+    .pdf-btn {
+      display: inline-block;
+      background: linear-gradient(90deg,#3a98e6 60%,#7de2fc 100%);
+      color: #163c5a;
+      font-weight: bold;
+      border: none;
+      border-radius: 24px;
+      padding: 12px 28px;
+      font-size: 1rem;
+      letter-spacing: 0.04em;
+      margin-top: 0.5em;
+      text-decoration: none;
+      box-shadow: 0 2px 12px rgba(100,180,255,0.18);
+      transition: background 0.3s;
+    }
+    .pdf-btn:hover {
+      background: linear-gradient(90deg,#7de2fc 60%,#3a98e6 100%);
+      color: #0e2233;
+    }
+    /* タブ */
+    .tabs {
+      display: flex;
+      justify-content: center;
+      gap: 0;
+      border-bottom: 1.5px solid #2c3e53;
+      margin-top: 20px;
+      background: #212b36;
+    }
+    .tab-btn {
+      background: none;
+      border: none;
+      color: #b2d2fa;
+      font-size: 1.1rem;
+      padding: 14px 32px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background 0.2s, color 0.2s;
+    }
+    .tab-btn.active, .tab-btn:hover {
+      background: linear-gradient(90deg, #3a98e6 40%, #7de2fc 100%);
+      color: #212b36;
+      border-radius: 10px 10px 0 0;
+    }
+    .tab-content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 36px 18px;
+      display: none;
+      background: rgba(25,35,45,0.94);
+      border-radius: 0 0 14px 14px;
+      margin-bottom: 48px;
+      margin-top: 0;
+    }
+    .tab-content.active {
+      display: block;
+      animation: fadeIn 0.6s;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px);}
+      to { opacity: 1; transform: translateY(0);}
+    }
+    @media (max-width:600px) {
+      .hero-content { flex-direction: column; gap: 18px;}
+      .key-info { flex-direction: column; gap: 12px;}
+      .tab-btn { padding: 12px 12px;}
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-content">
+<iframe src="https://drive.google.com/file/d/1JvtyqUzg30CUFTTewF4qoWaYwIHpNgcK/preview"alt="写真" width="168" height="131" allow="autoplay"></iframe>
+      <div class="hero-text">
+        <div class="name">enableX 小村 淳己 <span style="font-size:1.1rem;color:#7de2fc;">Junki Komura</span></div>
+        <div class="summary">
+          日米仏シンクタンク・コンサル、SI企業の管理職とAI企業の執行役員を歴任<br>
+現在はenableXのExecutive DirectorとしてTechnologyチームを統括<br>
+AI・事業開発サービス、DeepTech Hub、Neuron×AIの社会実装、研究開発を主導<br>
+        </div>
+        <div class="key-info">
+          <div class="key-info-item">
+            <!-- 役割アイコン -->
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#7de2fc"/><rect x="11" y="6" width="2" height="8" fill="#2c4e6c"/><rect x="11" y="16" width="2" height="2" fill="#2c4e6c"/></svg>
+            BizDev/Consulting          </div>
+          <div class="key-info-item">
+            <!-- 好きなものアイコン -->
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#3a98e6"/><path d="M12 8 Q13 10 12 12 Q11 10 12 8" fill="#fff"/></svg>
+           AI/DX
+          </div>
+          <div class="key-info-item">
+            <!-- 目標アイコン -->
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#b3dafe"/><path d="M12 6 L12 18" stroke="#2c4e6c" stroke-width="2"/><circle cx="12" cy="6" r="2" fill="#3a98e6"/></svg>
+            Alliance
+          </div>
+        </div>
+<a href="https://drive.google.com/file/d/15FOi3Ps0jgVpAcG3Jyjo9C7WBZBfWlBz/view?usp=share_link" class="pdf-btn" target="_blank">Tech Service Highlight</a>
+<a href="https://drive.google.com/file/d/1SFyV5JPFFvNwHUm-wAHHq4jnXBc3LMR6/view?usp=drive_link" class="pdf-btn" target="_blank">Tech Activity</a> 
+<a href="https://drive.google.com/file/d/1PHX-AH1Ygga9RW6YbQcRYXdWiMAQTiBJ/view?usp=share_link"class="pdf-btn" target="_blank">Podcast</a>
+
+      </div>
+    </div>
+  </section>
+
+  <nav class="tabs">
+    <button class="tab-btn active" data-tab="profile">プロフィール</button>
+    <button class="tab-btn" data-tab="works">案件・実績</button>
+    <button class="tab-btn" data-tab="hobby">趣味・価値観</button>
+    <button class="tab-btn" data-tab="eX">What enableX</button> 
+  </nav>
+
+  <div class="tab-content active" id="profile">
+    <p>
+大中小規模のコンサル/シンクタンク/SIer/AI企業を経てenableXへ<br>
+JDLA Generalist/Engineer資格、応用脳科学プラクティショナー資格<br>
+電気工学修士、経営学修士（MBA）<br>
+5月1日生まれ。左利き、小柄。奥さん、息子、白猫、三毛猫と暮らす<br>
+内向的だが、常に新しいことへ好奇心、神経科学に興味が深い<br>
+<a href="https://drive.google.com/file/d/1lC4vMfFIvQbVkD5ibrIPOWRu1HlGJpHW/view?usp=share_link" style="color:#7de2fc;text-decoration:underline;" target="_blank">SelfIntro</a><br>
+<a href="https://drive.google.com/file/d/1_8hejSYEkywtklLL7TMQy-XehoiBsUbE/view?usp=share_link" style="color:#7de2fc;text-decoration:underline;" target="_blank">Career</a><br>
+<a href="https://drive.google.com/file/d/1icfO1xCWv9ciBgOCrjpD2xFcK7LHMgVU/view?usp=share_link" style="color:#7de2fc;text-decoration:underline;" target="_blank">Fishbone</a>
+
+
+    </p>
+  </div>
+  <div class="tab-content" id="works">
+    <p>
+パーソナライゼーション技術を核に幅広いオファリング、サービス開発。エンタープライズを中心にPoCから実装、本格実装、運用、共同プロダクトを含む年間二桁以上の有償案件を主導<br>
+　　　・情報通信/人材/証券業：マッチングビジネス創出に向けたプロトタイプ実装・検証<br>
+　　　・建設業・広告業、大学：経営者・事業責任者、偉人、社員のAI<br>
+　　　・自動車業：デザイナーAI生成、アイデア組成活用<br>
+　　　・不動産、情報業：人事支援PAI、海外旅行顧客問合せAI<br>
+　　　・家電業・多事業GR企業：営業集合知、労務集合知AI形成<br>
+　　　・官民:軽量～中量規模のLLMモデル開発<br>
+　　　　他
+  <br>
+ <a href="https://drive.google.com/file/d/16kYv2ErylJSIQN7yGf6NHOP0GLQJvtht/view?usp=drive_link" style="color:#7de2fc;text-decoration:underline;" target="_blank">N1agent</a><br>
+ <a href="https://drive.google.com/file/d/1LmwmHGVSMo-VvVXD7uQYZ0JZ3PqQ68HW/view?usp=drive_link" style="color:#7de2fc;text-decoration:underline;" target="_blank">Detail of Assistor</a><br>
+<br>
+
+     </p>
+  </div>
+  <div class="tab-content" id="hobby">
+    <p>
+      空や海等の自然、神経科学やAIの書籍・デバイス・アプリに触れること、モダニズム、100円ショップ巡り<br>
+      エリック・カンデルやジョン・レノン、クリムト等、領域の壁を越えてインスピレーションを得たい<br>
+日常を刺激的に過ごしながら、自らの脳や感性を拡張し続けたい<br>
+
+プロフェッショナルとして事業計画推進、社会実装等の外発的活動をメインとしつつも、<br>
+エンジニアリングや研究にも深く入り人とAIの可能性を探求する内発活動も大事にしたい。<br>
+脳科学の分野も含め、NeuroTech×AIの可能性を追求し、人間とAIの協働と融合を促進しより豊かな社会創出に貢献していきたい
+<br>
+<a href="https://drive.google.com/file/d/13mbfYrh2RSMiNrxWbVVRmrZmesL9jiED/view?usp=drive_link" style="color:#7de2fc;text-decoration:underline;" target="_blank">DeepTech Hub</a><br>
+<a href="https://drive.google.com/file/d/189GkjhnlCIuqdbxRFGm-6g-OE8p26moG/view?usp=drive_link" style="color:#7de2fc;text-decoration:underline;" target="_blank">NeuronAI Lab</a><br>
+    </p>
+  </div>
+　<div class="tab-content" id="eX">
+    <p>
+enableXは、事業開発力とAIの専門性を要したソリューション企業です。<br>
+最も強みとなるのが人材で、マッキンゼーやP＆G、Netflix等を経て事業家として独立し成功した実践経験豊かなコアメンバーで構成されてます。経営タレントがお客様に伴走し、意思決定や、組織の変革を伴走できます。事業開発では構想～効果創出、社会実装まで一気通貫で行え、テクノロジー面でも、LLMや、自然言語、画像、音声技術、パーソナライゼーション等の技術バックグラウンドを持つ専門家達が自社実装を進めつつサービス提供し、マーケ領域や需要予測を含むデータ利活用も含め多様な業界での実績を拡大しております。
+
+<br>
+<a href="https://drive.google.com/file/d/1KfuHBpfiPdytPCVkSkQRG3TcrwH78NSX/view?usp=share_link" style="color:#7de2fc;text-decoration:underline;" target="_blank">enableX概要＆強み</a><br>
+<a href="https://drive.google.com/file/d/15FOi3Ps0jgVpAcG3Jyjo9C7WBZBfWlBz/view?usp=share_link" style="color:#7de2fc;text-decoration:underline;" target="_blank">Tech Service Highlight</a><br>
+     </p>
+  </div>
+  
+  <script>
+    const tabs = document.querySelectorAll('.tab-btn');
+    const contents = document.querySelectorAll('.tab-content');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t=>t.classList.remove('active'));
+        tab.classList.add('active');
+        contents.forEach(c=>c.classList.remove('active'));
+        document.getElementById(tab.dataset.tab).classList.add('active');
+      });
+    });
+  </script>
+
+
+<script>!function(window){const host="https://labs.heygen.com",url=host+"/guest/streaming-embed?share=eyJxdWFsaXR5IjoiaGlnaCIsImF2YXRhck5hbWUiOiJmY2JhMWFhYTE0ZWY0MzEwYmRjZDE1Y2Qx%0D%0AZjEwMjYwZSIsInByZXZpZXdJbWciOiJodHRwczovL2ZpbGVzMi5oZXlnZW4uYWkvYXZhdGFyL3Yz%0D%0AL2ZjYmExYWFhMTRlZjQzMTBiZGNkMTVjZDFmMTAyNjBlL2Z1bGwvMi4yL3ByZXZpZXdfdGFyZ2V0%0D%0ALndlYnAiLCJuZWVkUmVtb3ZlQmFja2dyb3VuZCI6ZmFsc2UsImtub3dsZWRnZUJhc2VJZCI6ImEw%0D%0AMmQzMmEyNTBjYzRjZWU4YTMzN2YzYmY5Njg4OWJmIiwidXNlcm5hbWUiOiJiNzNmYWJlY2UwMzE0%0D%0AOTJkOGEwOGMzMzlkY2ZhMjk5MyJ9&inIFrame=1",clientWidth=document.body.clientWidth,wrapDiv=document.createElement("div");wrapDiv.id="heygen-streaming-embed";const container=document.createElement("div");container.id="heygen-streaming-container";const stylesheet=document.createElement("style");stylesheet.innerHTML=`\n  #heygen-streaming-embed {\n    z-index: 9999;\n    position: fixed;\n    right: 10px;\n    bottom: 10px;\n    width: 250px;\n    height: 250px;\n    border-radius: 50%;\n    border: 2px solid #fff;\n    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.12);\n    transition: all linear 0.1s;\n    overflow: hidden;\n\n    opacity: 0;\n    visibility: hidden;\n  }\n  #heygen-streaming-embed.show {\n    opacity: 1;\n    visibility: visible;\n  }\n  #heygen-streaming-embed.expand {\n    ${clientWidth<540?"height: 266px; width: 96%; left: 50%; transform: translateX(-50%);":"height: 366px; width: calc(366px * 16 / 14);"}\n    border: 0;\n    border-radius: 8px;\n  }\n  #heygen-streaming-container {\n    width: 100%;\n    height: 100%;\n  }\n  #heygen-streaming-container iframe {\n    width: 100%;\n    height: 100%;\n    border: 0;\n  }\n  `;const iframe=document.createElement("iframe");iframe.allowFullscreen=!1,iframe.title="Streaming Embed",iframe.role="dialog",iframe.allow="microphone",iframe.src=url;let visible=!1,initial=!1;window.addEventListener("message",(e=>{e.origin===host&&e.data&&e.data.type&&"streaming-embed"===e.data.type&&("init"===e.data.action?(initial=!0,wrapDiv.classList.toggle("show",initial)):"show"===e.data.action?(visible=!0,wrapDiv.classList.toggle("expand",visible)):"hide"===e.data.action&&(visible=!1,wrapDiv.classList.toggle("expand",visible)))})),container.appendChild(iframe),wrapDiv.appendChild(stylesheet),wrapDiv.appendChild(container),document.body.appendChild(wrapDiv)}(globalThis);</script>
+
+
+
+</body>
+
+</html>
